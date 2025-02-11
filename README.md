@@ -9,66 +9,78 @@
 
     <!-- Header -->
     <header>
-        <h1 style="text-align: center;">One Direction</h1>
-        <hr>
+        <h1>One Direction</h1>
         <nav>
-            <a href="#sejarah">Sejarah</a> | 
-            <a href="#anggota">Anggota</a>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#members">Anggota</a></li>
+            </ul>
         </nav>
+        <hr>
     </header>
-    
-    <hr>
 
     <!-- Main Content -->
     <main>
-        <section id="sejarah">
-            <p><u>One Direction</u> adalah boyband asal Inggris-Irlandia yang terbentuk pada tahun 2010 melalui ajang The X Factor UK. Grup ini terdiri dari Harry Styles, Niall Horan, Liam Payne, Louis Tomlinson, dan Zayn Malik (yang keluar pada 2015).</p>
-
-            <!-- Video berada di tengah -->
-            <center>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Y1xs_xPb46M" frameborder="0" allowfullscreen></iframe>
-            </center>
-
-            <p>Dengan lagu-lagu hits seperti *What Makes You Beautiful*, *Story of My Life*, dan *Drag Me Down*, mereka berhasil meraih popularitas global dan berbagai penghargaan musik.</p>
+        <section id="about">
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            <u>One Direction</u> adalah boyband asal Inggris-Irlandia yang terbentuk pada tahun 2010 melalui ajang The X Factor UK. 
+                            Grup ini terdiri dari Harry Styles, Niall Horan, Liam Payne, Louis Tomlinson, dan Zayn Malik (yang keluar pada 2015).
+                        </p>
+                    </td>
+                    <td>
+                        <!-- Video di tengah -->
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/QJO3ROT-A4E" frameborder="0" allowfullscreen></iframe>
+                    </td>
+                    <td>
+                        <p>
+                            Dengan lagu-lagu hits seperti <i>What Makes You Beautiful</i>, <i>Story of My Life</i>, dan <i>Drag Me Down</i>, mereka berhasil meraih popularitas global dan berbagai penghargaan musik.
+                            Dikenal dengan harmoni vokal yang kuat dan lirik yang relatable, <u>One Direction</u> memiliki basis penggemar yang sangat loyal (Directioners).
+                        </p>
+                    </td>
+                </tr>
+            </table>
         </section>
 
-        <section id="anggota">
+        <hr>
+
+        <!-- Unordered List -->
+        <section id="members">
             <h2>Anggota One Direction</h2>
             <ul>
                 <li>Harry Styles</li>
                 <li>Niall Horan</li>
                 <li>Liam Payne</li>
                 <li>Louis Tomlinson</li>
-                <li>Zayn Malik (keluar 2015)</li>
+                <li>Zayn Malik</li>
             </ul>
         </section>
 
+        <hr>
+
+        <!-- Table -->
         <section>
             <h2>Diskografi</h2>
-            <table border="1" cellspacing="0" cellpadding="5">
+            <table border="1">
                 <tr>
-                    <th colspan="2"><strong>Album & Tahun</strong></th>
-                    <th><strong>Cover</strong></th>
+                    <th colspan="2">Album</th>
+                    <th>Cover</th>
                 </tr>
                 <tr>
-                    <td rowspan="2">Up All Night</td>
-                    <td>2011</td>
-                    <td rowspan="2">
-                        <img src="https://upload.wikimedia.org/wikipedia/en/6/6a/One_Direction_Up_All_Night_cover.png" width="100">
-                    </td>
+                    <td rowspan="2">2011</td>
+                    <td>Up All Night</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/en/6/6d/One_Direction_-_Up_All_Night.png" width="100"></td>
                 </tr>
                 <tr>
-                    <td>Hits: *What Makes You Beautiful*</td>
+                    <td>Take Me Home</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/en/8/84/Take_Me_Home_One_Direction_cover.png" width="100"></td>
                 </tr>
                 <tr>
-                    <td rowspan="2">Take Me Home</td>
-                    <td>2012</td>
-                    <td rowspan="2">
-                        <img src="https://upload.wikimedia.org/wikipedia/en/f/f2/One_Direction_-_Take_Me_Home.png" width="100">
-                    </td>
-                </tr>
-                <tr>
-                    <td>Hits: *Little Things*</td>
+                    <td>2013</td>
+                    <td>Midnight Memories</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/en/1/18/One_Direction_Midnight_Memories_%28Official_Album_Cover%29.png" width="100"></td>
                 </tr>
             </table>
         </section>
@@ -78,8 +90,9 @@
 
     <!-- Footer -->
     <footer>
-        <p>Nama: [Nama Anda] | NIM: [NIM Anda]</p>
-        <p><a href="https://en.wikipedia.org/wiki/One_Direction" target="_blank">Sumber Informasi</a></p>
+        <p>
+            Dibuat oleh <a href="https://en.wikipedia.org/wiki/One_Direction" target="_blank">[Nama Anda] - [NIM Anda]</a>
+        </p>
     </footer>
 
 </body>
